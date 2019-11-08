@@ -40,6 +40,8 @@ public class AddressController {
 		return "WEB-INF/jsp/address";
 		
 	}
+	private int id;
+
 	@ModelAttribute("userList")
 	public List<Easybuy_user> getUser(){
 		List<Easybuy_user> list=u.selectuser();
